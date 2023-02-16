@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Lalit's Personal Portfolio Website</title>
+        <link rel="stylesheet" href="style.css">
+       <script src="https://kit.fontawesome.com/b2893fb561.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+               <nav>
+                    <h2 class="logo"> <span> Portfo</span><span style="color:brown;">lio</span></h2>
+                    <ul id="sidemenu">
+                        <li><a href="#header"> Home</a></li>
+                        <li><a href="#about"> About</a></li>
+                        <li><a href="#services"> Services</a></li>
+                        <li><a href="#portfolio"> Portfolio</a></li>
+                        <li><a href="#contact"> Contact</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <h1>Hello, I'm <br> Lalit <span>BC</span> <br> I'm an Agriculturist</h1>
+                </div>
+            </div>
+        </div>
+
+        <!---------------About section------------>
+        <div id="about">
+            <div class="container">
+               <div class="row">
+                    <div class="about-col-1">
+                        <img src="/Img/into.JPG" alt="">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title"> About Me </h1>
+                        <p>I'm an Agriculture student at the Institute of Agriculture and Animal Science (IAAS), Tribhuvan University, 
+                            Kathmandu Nepal. I work at Shree Nawajeevan Secondary (Plant Science) School at 
+                            Kakani Rural Municipality-06, Nuwakot as an agriculture instructor. I'm a volunteer at YouthMappers 
+                            and also an active memeber of OpenStreetMap. I'm highly interested in working with data (Spatial and non-spatial),
+                            I have done few work on GIS and Remote Sensing which are under publication. I'm familiar with R, ArcGIS, JOSM,GoogleEarthengine,
+                            and have basic knowledge on Python, HTML, CSS and SQL. Currently I'm learning Machine Learning and AI from different platform.
+                            If you want to collaborate on projects feel free to contact me.
+                
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick= "Opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick= "Opentab('experience')">Experience</p>
+                            <p class="tab-links"onclick= "Opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Agriculture Consultancy</span> <br> Farm Design</li>
+                                <li><span>Trainings</span> <br> Agriculture Trainings</li>
+                                <li><span>Survey and Data analysis</span> <br> Agriculture Survey and data analysis</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2021-Current</span> <br> Instructor at Navajeevan Secondary School</li>
+                                <li><span>2017-2019</span> <br>Assistant breeder at Lumbini Seed Company</li>
+                                <li><span>2017-2018</span> <br> Volunteer at Tunza Eco Generation</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="education">                            <ul>
+                                <li><span>2023</span> <br> Masters at the Institute of Agriculture and Animal Science (IAAS)</li>
+                                <li><span>2020</span> <br> Bachelors at the Institute of Agriculture and Animal Science (IAAS) </li>
+                                <li><span>2016</span> <br> Gorkha United School</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        
+        </div>
+
+        <!-----------------------------------------------Services------------------------------------------->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title"> My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-square-poll-vertical"></i>
+                        <h2>Agriculture Consultancy</h2>
+                        <p>As an agriculture student and an instructor at Nawajeevan Plant Science School. 
+                            We provide agriculture consultancy, farm design and other trainings related to <br>
+                            agriculture.</p>
+                            <a href="#"> Learn More</a>
+                    </div>
+                    
+                    <div>
+
+                        <i class="fa-solid fa-square-poll-vertical"></i>
+                        <h2> Survey & Data Analysis </h2>
+                        <p>Survey and Data analysis are the crucial part of research. Here in our company 
+                            we help people with the design of research, questionnaire preparation and the 
+                            data analysis and visualization.</p>
+                            <a href="#"> Learn More</a>
+                    </div>
+                    
+                    <div>
+
+                        <i class="fa-solid fa-square-poll-vertical"></i>
+                        <h2> Farm Design & Training </h2>
+                        <p>Do you also want to start your own farm? or are you planning to receive any kind of agriculture trainings? 
+                            Now no need to worry because we are here at your service. 
+                            We help you design your own farm and supports you with the training.</p>
+                            <a href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!-- -----------------------Portfolio------------------------ -->
+<div id="portfolio">
+   <div class="container">
+        <h1 class="sub-title"> My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Img/2.jpg">
+                <div class="layer">
+                    <h3> Sunflower Project </h3>
+                    <p> In Kakani it was believed that it's hard to grow sunflower here
+                        but with our work we produce huge amount of flower size in sunflower.
+                        These days many people are attracted to this sector.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="Img/4.jpg">
+                <div class="layer">
+                    <h3> HoneyBee Project </h3>
+                    <p>Kakani is a hilly region and its suitable for the farming of asiatic honey bee
+                        Apis cerena. We have more than 20 hives and we provide trainings related to bee management,
+                        queen production and bee hive manufacture.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="Img/12.jpg">
+                <div class="layer">
+                    <h3> Strawberry Project </h3>
+                    <p>Strawberry is one of the most delicious fruit in the world but it is very hard to
+                        keep it for long time. Kakani is very famous for the production of strawberry and rainbow trout
+                        fish. We help people with training on strawberry farming and also supply saplings to them.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="Img/26.jpg">
+                <div class="layer">
+                    <h3> Lettuce</h3>
+                    <p> it is one of the most comsumed salad leaf vegetable in the world.
+                        we provide seasonal fresh lettuce to our consumer. We grow more than five
+                        varieites of lettuce in our farm.
+                    </p>
+                   <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="Img/28.png">
+                <div class="layer">
+                    <h3> PrettyMaps</h3>
+                    <p> PrettyMaps is a python package that help us to visualization of our city maps
+                        very easily and in a beautiful manner. I created this map of Kathmandu city using preetymaps
+                        package that take data from the OpenStreetMap.
+                    </p>
+                    <a href="https://github.com/peterdsharpe/prettymaps" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn"> See More</a>
+    </div>
+</div>
+
+<!-- -----------------------contact------------------------ -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>lalitiaas@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+9779868365688</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/lalit.bc.90" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/Agri_Lalit"target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/lalit_iaas/"target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/channel/UC4pt3AUxKziC4qZ_Qr4aXqQ"target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://github.com/Lalitgis" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/lalit-bc-67832a140/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.researchgate.net/profile/Lalit-Bc?ev=hdr_xprf" target="_blank"><i class="fa-brands fa-researchgate"></i></a>
+                </div>
+                <a href="Img/Resume.pdf" download class="btn btn2">Download Cv</a>
+            </div>
+
+            <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+     </div>
+    </div>
+    <div class="copyright">
+        <p> Copyright © LaLit BC 2023. Made with the help of Kevin Jen. </p>
+    </div>
+</div>
+
+
+    <script>
+
+        var tablinks =document.getElementsByClassName("tab-links");
+        var tabcontents =document.getElementsByClassName("tab-contents");
+        function Opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxECEIPkRC2lmuyFio9LIVvk-rkkcHusr7fw-2C_buChREqNMIbus7L8Sg2CThjR92PCg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById('msg')
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout (function(){
+                    msg.innerHTML =""
+                }, 5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    </body>
+</html>
